@@ -44,3 +44,20 @@ This component processes live video streams for advanced feature extraction, ima
 - **Image Processing API Integration**: Asynchronously uploads processed frames to an external API for concise descriptions.
 - **Real-time Feedback**: Delivers descriptive feedback in text form, helping users understand the video stream's contents.
 
+### 5. Llama Long Video Analysis Project
+
+An AI system using Llama 3.2 90B Vision model for analyzing long videos and answering questions about their content. The system processes YouTube videos by extracting and analyzing frame sequences.
+
+Key Features
+- YouTube video downloads via yt-dlp
+- Frame extraction at customizable FPS
+- Batch frame analysis
+- Vision-based scene understanding
+- Natural language Q&A capability
+- Frame sequence visualization
+
+Technical Stack
+- Meta Llama 3.2 90B Vision Instruct model
+- Google Cloud Platform
+- Python with OpenCV
+- Vertex AI integration
