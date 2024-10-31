@@ -50,7 +50,7 @@ def translate(audio_file):
 def call_lamma_vision(text_in,imageurl_in,prompt_add): 
     url = "https://proxy.tune.app/chat/completions"
     headers = {
-        "Authorization": "sk-tune-XJBlBdjj0Mh437ZSmy2OStKFGh9OQ0OD5JN",
+        "Authorization": "Enter tuneAI API_Key",
         "Content-Type": "application/json",
     }
     print(text_in + prompt_add)
