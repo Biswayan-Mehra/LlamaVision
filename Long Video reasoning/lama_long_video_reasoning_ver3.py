@@ -479,7 +479,7 @@ if(len(response3.choices[0].message.content)==1):
   except ZeroDivisionError:
     print("")
 
-YouTubeDataIDkey = "AIzaSyDBC2U8qXHCM0mEPiP4WOKo41GRJYgZ1XA"
+YouTubeDataIDkey = "Enter your youTube API Key"
 
 !gcloud projects add-iam-policy-binding ecstatic-moon-439010-e7 \
     --member="user:rajagopal.motivate@gmail.com" \
